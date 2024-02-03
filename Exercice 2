@@ -1,0 +1,28 @@
+lst1 = list(range(1200,2000, 135))
+lst2 = []
+for i in lst1 :
+    if i % 2 == 0 :
+        lst2.append(i * 2)
+
+numbers = (1, 2, 3, 4, 5, 6,7,8, 9)
+o = []
+e = []
+for k in numbers :
+    reste = k % 2
+    if reste == 0 :
+        o.append(k)
+    else :
+        e.append(k)
+
+print(lst1)
+print(lst2)
+print(o)
+print(e)
+
+# L'autre manière de faire la somme de 2 mombres entiers est : la somme de la décomposition unitaire de chaque nombre
+
+# Exemple
+
+nbr1 = 13
+nbr2 = 45
+somme = (nbr1 // 10)*10 + (nbr1 % 10)*1 + (nbr2 // 10)*10 + (nbr2 % 10)*1  
